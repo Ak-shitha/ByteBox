@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships</title>
+    <!-- FontAwesome CSS Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            color: white;
+            text-align: left;
+            padding: 10px 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .container-wrapper {
+            background-color: #cfe2f3; /* Light blue background color */
+            padding: 20px 0;
+        }
+
+        .container:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .container:nth-child(odd) {
+            background-color: #e2e2e2;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+            transition: box-shadow 0.3s;
+        }
+
+        .container:hover {
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .internship-details {
+            margin-top: 20px;
+        }
+
+        .internship-details p {
+            margin: 5px 0;
+        }
+
+        .details-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .details-button:hover {
+            background-color: #0056b3;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        .container i {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Internships</h1>
+    </div>
+
+    <div class="container-wrapper">
+        <div class="container">
+            <i class="fas fa-code"></i>
+            <h2>Web Development Internship Program</h2>
+            <div class="internship-details">
+                <p><strong>Duration:</strong> 1 month</p>
+                <p><strong>Location:</strong> Virtual</p>
+                <p><strong>Start Date:</strong> 25/10/23</p>
+            </div>
+            <a href="#" class="details-button">View Details</a>
+        </div>
+
+        <div class="container">
+            <i class="fas fa-mobile-alt"></i>
+            <h2>App Development Internship Program</h2>
+            <div class="internship-details">
+                <p><strong>Duration:</strong> 1 month</p>
+                <p><strong>Location:</strong> Virtual</p>
+                <p><strong>Start Date:</strong> 25/10/23</p>
+            </div>
+            <a href="#" class="details-button">View Details</a>
+        </div>
+
+        <div class="container">
+            <i class="fab fa-python"></i>
+            <h2>Python Programming Internship Program</h2>
+            <div class="internship-details">
+                <p><strong>Duration:</strong> 1 month</p>
+                <p><strong>Location:</strong> Virtual</p>
+                <p><strong>Start Date:</strong> 25/10/23</p>
+            </div>
+            <a href="#" class="details-button">View Details</a>
+        </div>
+
+        <div class="container">
+            <i class="fab fa-java"></i>
+            <h2>Java Programming Internship Program</h2>
+            <div class="internship-details">
+                <p><strong>Duration:</strong> 1 month</p>
+                <p><strong>Location:</strong> Virtual</p>
+                <p><strong>Start Date:</strong> 25/10/23</p>
+            </div>
+            <a href="#" class="details-button">View Details</a>
+        </div>
+    </div>
+</body>
+
+</html>
